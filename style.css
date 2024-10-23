@@ -1,17 +1,17 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: lightblue;
+  background-color: lightblue;/* makes the background color light blue*/
 }
 
 h2 {
-  text-align: center;
+  text-align: center; /*aligns the text in thr center*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
 nav {
-  background-color: white;
-  color: black;
+  background-color: white; /* chnages the background color to white*/
+  color: black; /*changes text color to black*/
   padding: 5px;
   text-align: center;
 }
@@ -21,16 +21,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: navy;
+  background-color: navy; /* chnages background color to navy*/
 }
 
 li {
-  float: left;
+  float: left;/* floats the text to the left*/
 }
 
 li a {
   display: block;
-  color: white;
+  color: white; /* chnages text color to white*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,33 +38,33 @@ li a {
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
 .city1 {
-  background-color: tomato;
+  background-color: tomato; /* changes the background color to red*/
   color: white;
   padding: 10px;
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
 .city2 {
-  background-color: lightsalmon;
+  background-color: lightsalmon;/* chnages the background color to pink*/
   color: white;
   padding: 10px;
 } 
 
 img {
-  display: block;
+  display: block; /* blocks the dislpay*/
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; /* changing the margin */
   width: 50%;
   height: auto;
   border: solid 5px;
 }
 
 .image1 {
-  border-color: white;
+  border-color: white; /*changes border color of the image to white*/
   padding: 5px;
 }
 
 .image2 {
-  border-color: white;
+  border-color: white; /* chnaged border color of the image to white*/
   padding: 20px;
 }
